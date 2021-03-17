@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f7f6ed;
+}
+.navbar{
+ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* for sticky navbar you have to write position: sicky and cursor:  pointer;; */
+    position: sticky;
+    top :0;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+ width: 20%;
+ padding: 11px 10px;
+}
+
+.nav-list{
+   width: 85%;
+   /* background-color: rgb(5, 5, 5); */
+   display: flex;
+   align-items: center;
+
+}
+
+.nav-list li {
+list-style: none;
+padding: 0px 30px;
+}
+
+.nav-list li a{
+text-decoration: none;
+font-size: 20px;
+color:rgb(255, 255, 255);
+}
+
+.nav-list li a:hover{
+  
+    color: rgb(0, 251, 255);
+    
+}
+.rightnav{
+   
+    width: 32%;
+    text-align: right;
+    padding: 0px 23px;
+
+}
+#search{
+    padding: 5px;
+    font-size: 0.7rem;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7)url('../img/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 60%;
+    height: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+  
+}
+.fhalf{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.shalf {
+  width: 50%;
+  /* border: 2px solid red; */
+  margin-left: 50px;
+}
+.shalf img{
+    width:98%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 11px;
+
+
+}
+.firstSection{
+    height: 100vh;
+}
+.text-big{
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-small{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn{
+    padding: 8px;
+    border: 2px solid #783903;
+    border-radius: 9px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin: 10px 3px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+  
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+.btn-sm{
+    padding:4px 10px;
+    vertical-align: middle;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 229, 255);
+}
+.btn:hover a{
+    color: rgb(0, 229, 255);
+}
+.section{
+    height: 450px;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    justify-content: space-evenly;
+  
+}
+
+.sec-left{
+    flex-direction: row-reverse;
+}
+
+.thumbnail img{
+    width: 265px;
+    height:258px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 11px;
+
+}
+
+.para{
+    padding: 0px 76px;
+}
+
+.contact{
+    background-color: rgb(255, 255, 255);
+    height: 708px;
+}
+.text-center{
+    text-align: center;
+    padding: 30px;
+}
+.form{
+    max-width: 62%;
+    margin: 0px auto;
+}
+.form-input{
+    margin: 10px 0px;
+    padding: 5px 3px;
+     width: 100%;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin: 15px 0px;
+}
+#footer{
+
+    height: 60px;
+    /* background-color: rgb(72 61 73); */
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: 'RocknRoll One', sans-serif;
+    align-items: center;
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 3%;
+    top:21px
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
